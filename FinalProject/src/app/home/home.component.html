@@ -1,0 +1,21 @@
+<div class="container123">
+  <div class="row12">
+    <div class="size">
+      <ul class="event-list">
+        <div class= "box">
+            <li class ="list" *ngFor="let event of eventsList" >
+                <time datetime="2016-02-14" (click)="openConfirmationDialog(event)">
+                    <span class="day">{{ event.date | date : "dd" }}</span>
+                    <span class="month">{{ event.date | date : "MMM" }}</span>
+                  </time>
+              <div class="info">
+                <h2 class="title">{{ event.title }}</h2>
+                <p class="desc">{{ event.details }}</p>
+              </div>
+              
+            </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>

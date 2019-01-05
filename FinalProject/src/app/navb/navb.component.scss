@@ -1,0 +1,14 @@
+nav {
+  padding : 10px;
+  background-color: blue !important;
+ // color: white;
+    ul{
+      .navbar-nav {
+        .nav-item{
+          a{
+            color: green !important;
+          }
+        }
+      }
+    }
+}

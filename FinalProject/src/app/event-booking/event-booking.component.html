@@ -1,0 +1,13 @@
+<div class="container123">
+  <div class="row12">
+    <div class="size">
+        <h3>Book You Tickets:</h3>
+        <h5>Event Name: {{eventObj.eventName}}</h5>
+        <h5>Event Venue: {{eventObj.eventVenue}}</h5>
+        <h5>Event Date: {{eventObj.eventDate | date : "MM"}}/{{eventObj.eventDate | date : "dd"}}/{{eventObj.eventDate | date : "yy"}}</h5>
+        <h5>Event Details: {{eventObj.eventDetails}}</h5>
+        <h5>Event Contact: {{eventObj.eventContact}}</h5>
+        <button type="submit" class="btn btn-primary" (click)="onSubmit()"> Book Now! </button>
+    </div>
+  </div>
+</div>
