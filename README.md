@@ -1,5 +1,11 @@
 # Final-Project-web_developers
 The purpose of the website application is to create a platform where events going around the area can be shared and social gatherings are improved.
+Project is developed within a team of total four.
+* Chetan Shirsath
+* Dhairyasheel Surve
+* Sarthak Hoshangabade
+* Naqiyah Lakdawala
+
 So basically the website manages to do the following things :
 
 * As a user, I should be able to register my new account
