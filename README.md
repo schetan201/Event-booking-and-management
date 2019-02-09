@@ -1,4 +1,4 @@
-# Final-Project-web_developers
+# Event booking and management application
 The purpose of the website application is to create a platform where events going around the area can be shared and social gatherings are improved.
 Project is developed within a team of total four.
 * Chetan Shirsath
